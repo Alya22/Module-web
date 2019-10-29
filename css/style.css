@@ -1,0 +1,72 @@
+ .triangle1{
+     width: 0;
+     height: 0;
+     position: absolute;
+     left: 700px;
+     top:400px;
+     border-left: 60px solid transparent;
+     border-bottom: 60px solid royalblue;
+     animation: transform1 4s linear forwards;
+ }
+ @keyframes transform1{
+     0%{
+        transform: translate(0);
+     }
+     100%{
+        transform:translate(-150px,-150px);
+     }
+ }
+ .triangle2{
+    width: 0;
+    height: 0;
+    position: absolute;
+    left: 350px;
+    top:400px;
+    border-right: 60px solid transparent; 
+    border-bottom: 60px solid royalblue;
+    animation: transform2 4s linear forwards; 
+}
+@keyframes transform2{
+    0%{
+       transform: translate(0);
+    }
+    100%{
+       transform:translate(150px,-150px);
+    }
+}
+.triangle3{
+    width: 0;
+    height: 0;
+    position: absolute;
+    left: 350px;
+    top:50px;
+    border-bottom: 60px solid transparent; 
+    border-left: 60px solid royalblue;
+    animation: transform3 4s linear forwards;
+}
+@keyframes transform3{
+    0%{
+       transform: translate(0);
+    }
+    100%{
+       transform:translate(150px,150px);
+    }
+}
+.triangle4{
+    width: 0;
+    height: 0;
+    position: absolute;
+    left: 700px;
+    top:50px;
+    border-bottom: 60px solid transparent;
+    border-right: 60px solid royalblue;
+    animation: transform4 4s linear forwards;
+}
+@keyframes transform4{
+    0%{
+       transform: translate(0);
+    }
+    100%{
+       transform:translate(-150px,150px);
+    }
+}
